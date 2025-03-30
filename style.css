@@ -1,48 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-
+/* Estilizaçoes gerais  */
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    background-color: black;
     font-family: "Josefin Sans";
     font-size: 18px; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 400; 
-
+    color: white;
 }
-header > nav.navbar ,a.navbar-brand{
-    font-size: 22px; 
-    font-weight: 600; 
-
-
-}
-
-
-/* section Apresentação */
 h1 {
    font-size: 90px; 
    font-weight: 700;
+   line-height: 90px;
+   
 }
-.h1-apresentacao{
-    padding-top: 11rem;
-}
-h2{   
-    font-size: 66px;
+h3,h2{   
     font-weight: 600; 
     line-height: 70px;
     background: linear-gradient(45deg, #5DFFFF, #AE0CA7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+h2{
+    font-size: 70px;
+   line-height: 70px;
+}
+h3{
+    font-size: 60px;
+}
 p{
    font-size: 18px;
    line-height: 30px
 }
-div.containerApresentacao{
-    height: 52rem;
-    padding-top: 10rem;
+/* header  */
+header > nav.navbar ,a.navbar-brand{
+    font-size: 22px; 
+    font-weight: 600; 
 }
+/* section Apresentação */
+.h1-apresentacao{
+    padding:12rem 0rem 0rem 0rem;
+}
+.h3-apresentacao{
+    margin-bottom: 2rem;
+}
+div.containerApresentacao{
+    height: 45.8rem;
+    padding: 180px;
+}
+/* section sobre mim  */
+
+div.containerSobreMim{
+    padding:180px;
+}
+h2.h2-sobreMim{
+    margin-bottom: 3rem;
+
+}
+
+
+
+
+
+
+
+
+
+
 
