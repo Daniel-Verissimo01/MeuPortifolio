@@ -6,7 +6,7 @@
 }
 body{
     font-family: "Josefin Sans";
-    font-size: 18px; 
+    font-size: 16px; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 400; 
@@ -34,7 +34,8 @@ h3{
 }
 p{
    font-size: 18px;
-   line-height: 30px
+   line-height: 30px;
+   margin:0;
 }
 /* header  */
 header > nav.navbar ,a.navbar-brand{
@@ -43,7 +44,7 @@ header > nav.navbar ,a.navbar-brand{
 }
 /* section Apresentação */
 .h1-apresentacao{
-    padding:12rem 0rem 0rem 0rem;
+    padding:13rem 0rem 0rem 0rem;
 }
 .h3-apresentacao{
     margin-bottom: 2rem;
@@ -55,18 +56,121 @@ div.containerApresentacao{
 /* section sobre mim  */
 
 div.containerSobreMim{
-    padding:180px;
+    padding:140px;
 }
 h2.h2-sobreMim{
     margin-bottom: 3rem;
 
 }
 
+/* section Tecnologias */
+
+h2.h2-tech{
+    margin-bottom: 3rem;
+    margin-top: 6rem;
+}
+div.containerTech{
+    height: 30rem;
+}
 
 
+/* responsividade */
+@media (max-width: 958px){
+    .h1-apresentacao{
+        padding:8rem 0rem 0rem 0rem;
+    }div.containerApresentacao{
+        padding: 0px;
+    }
 
+    div.containerSobreMim{
+        padding:0px;
+    }
+    h2.h2-sobreMim{
+        margin-bottom: 3rem;
+    }
+    h1 {
+        font-size: 80px; 
+        font-weight: 700;
+        line-height: 80px;
+     }p{
+        font-size: 14px;
+     }
+}
+@media (max-width: 1171px){
+    div.containerApresentacao{
+        padding: 40px;
+    }
+    
 
+    div.containerSobreMim{
+        padding:40px;
+    }
+    h2.h2-sobreMim{
+        margin-bottom: 3rem;
+    }
+    .h1-apresentacao{
+        padding:12rem 0rem 0rem 0rem;
+    }
+    h2{
+       font-size: 60px;
+       line-height: 60px;
+    }
+    h3{
+        font-size: 50px;
+    }
+    h1 {
+        font-size: 80px; 
+        font-weight: 700;
+        line-height: 80px;
+        
+     }
+}
+@media (max-width: 670px){
+    .h1-apresentacao{
+        padding:6rem 0rem 0rem 0rem;
+    }div.containerApresentacao{
+        padding: 40px;
+        height: 45.8rem;
+        
+    }
+    h2.h2-sobreMim{
+        margin-top: 10rem;
+    }
+    
 
+    div.containerSobreMim{
+        padding:0px;
+    }
+    h2.h2-sobreMim{
+        margin-bottom: 3rem;
+    
+    }
+}
+@media (max-width: 500px){
+    h2.h2-sobreMim{
+        margin-top: 22rem;
+    }
+    h2{
+        font-size: 40px;
+        line-height: 40px;
+     }
+     h3{
+         font-size: 30px;
+     }
+     h1 {
+         font-size: 50px; 
+         font-weight: 700;
+         line-height: 50px;
+      }
+      p{
+        font-size: 12px;
+      }
+}    
+@media (max-width: 750px){
+
+} .h1-apresentacao{
+        padding:7rem 0rem 0rem 0rem;
+}
 
 
 
