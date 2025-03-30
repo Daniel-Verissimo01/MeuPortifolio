@@ -5,21 +5,44 @@
     padding: 0;
 }
 body{
-    
+    background-color: black;
+    font-family: "Josefin Sans";
+    font-size: 18px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+
+}
+header > nav.navbar ,a.navbar-brand{
+    font-size: 22px; 
+    font-weight: 600; 
+
+
 }
 
 
-main.py-3 > section.py-4 > div.container-fluid > h1 {
-    font-family: "Josefin Sans"; font-size: 90px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 49px;
-    
+/* section Apresentação */
+h1 {
+   font-size: 90px; 
+   font-weight: 700;
 }
-main.py-3 > section.py-4 > div.container-fluid > h2{
-    margin-top:2rem ;
-    font-family: "Josefin Sans"; font-size: 66px; font-style: normal; font-variant: normal; font-weight: 600; line-height: 70px;
+.h1-apresentacao{
+    padding-top: 11rem;
+}
+h2{   
+    font-size: 66px;
+    font-weight: 600; 
+    line-height: 70px;
     background: linear-gradient(45deg, #5DFFFF, #AE0CA7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-main.py-3 > section.py-4 > div.container-fluid > p{
-    font-family: "Josefin Sans"; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px
+p{
+   font-size: 18px;
+   line-height: 30px
 }
+div.containerApresentacao{
+    height: 52rem;
+    padding-top: 10rem;
+}
+
