@@ -7,10 +7,15 @@
 body{
     font-family: "Josefin Sans";
     font-size: 16px; 
+    line-height: 18px;
+
     font-style: normal; 
     font-variant: normal; 
     font-weight: 400; 
     color: white;
+    background-color: black;
+}
+section{
     background-color: black;
 }
 h1 {
@@ -53,9 +58,7 @@ header>nav.navbar>div.container-fluid>div.collapse>ul.navbar-nav>li.nav-item>a.n
 h2.h2-apresentacao{
     color: white;
 }
-section{
-    background-color: black;
-}
+
 div.containerApresentacao{
     height: 45.8rem;
 
@@ -71,8 +74,7 @@ div.spans-apre{
     margin-top: 11rem;
 }
 .spanOla,.dev{
-    background: linear-gradient(45deg, #5DFFFF, #AE0CA7);
-    -webkit-background-clip: text;
+    background: linear-gradient(45deg, #5DFFFF, #AE0CA7);-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .imagemREdesSociais:hover{
@@ -85,20 +87,18 @@ div.spans-apre{
 
 div.containerSobreMim{
     padding:180px;
-    height: 45.8rem;
+    height: 48.8rem;
 }
 h2.h2-sobreMim{
     margin-bottom: 2rem;
-    margin-top: 5px;
+    margin-top: 6px;
 }
 .img-daniel{
     border-radius: 10px;
-    
 }
 .h3-sobreMim1{
     font-size:50px;
    line-height: 50px;
-
 }
 .h3-sobreMim2{
     background: linear-gradient(45deg, #5DFFFF, #AE0CA7);
@@ -107,26 +107,64 @@ h2.h2-sobreMim{
     font-size: 32px;
    line-height: 32px;
    font-weight: 700;
-
 }
-
-
-
-
 
 /* section Tecnologias */
 
 h2.h2-tech{
     margin-bottom: 3rem;
-    margin-top: 6rem;
+    margin-top: 2rem;
 }
 div.containerTech{
-    height: 20rem;
+    height: 48.8rem;
 }
-.img:hover{
-    height: 140px;
-    border-top:4px solid #5DFFFF;
+.spanTrabalho{
+    background: linear-gradient(45deg, #5DFFFF, #AE0CA7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
 }
+.divImg{
+
+    height: 270px;
+    width: 390px;
+   
+    padding: 18px;
+    border-radius: 15px;
+
+    backdrop-filter: blur(100px);
+    box-shadow: 0px 0px 10px rgb(227, 228,237, 0.37);
+    border:2px solid rgb(255, 255, 255,0.18);
+}
+.tech-paragrafo{
+   line-height: 20px;
+   font-size: 18px;
+
+}
+.tech-titulo{
+    margin-top: 11px;
+    margin-bottom: 11px;
+
+    background: linear-gradient(90deg, #5DFFFF, #AE0CA7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.divImg:hover{
+
+    height: 275px;
+    width: 395px;
+
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px linear-gradient(90deg, #5DFFFF, #AE0CA7);
+
+    border: 2px solid transparent; 
+    background: linear-gradient(black, black) padding-box,
+                linear-gradient(90deg, #5DFFFF, #AE0CA7) border-box;
+
+}
+
+
+
+
 /* section projetos */
 
 
