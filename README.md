@@ -7,7 +7,7 @@ Este portfólio foi criado para demonstrar minha trajetória profissional e téc
 
 ## 🛠️ Tecnologias Utilizadas  
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap
-- **Estilização:** CSS puro / Bootstrap 
+- **Estilização:** CSS puro / Bootstrap
 
 ## 📸 Capturas de Tela  
 ![image](https://github.com/user-attachments/assets/d0fe159e-73ce-4784-bda9-1f9c49e4b803)
