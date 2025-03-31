@@ -10,4 +10,5 @@ Este portfólio foi criado para demonstrar minha trajetória profissional e téc
 - **Estilização:** CSS puro / Bootstrap 
 
 ## 📸 Capturas de Tela  
-*(Adicione imagens ou GIFs mostrando a interface do seu portfólio)*  
+![image](https://github.com/user-attachments/assets/d0fe159e-73ce-4784-bda9-1f9c49e4b803)
+
