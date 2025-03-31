@@ -13,17 +13,18 @@ body{
     color: white;
 }
 h1 {
-   font-size: 90px; 
+   font-size: 87px; 
    font-weight: 700;
    line-height: 90px;
    
 }
 h3,h2{   
-    font-weight: 600; 
+    font-weight: 700; 
     line-height: 70px;
-    background: linear-gradient(45deg, #5DFFFF, #AE0CA7);
+    color: white;
+    /* background: linear-gradient(45deg, #5DFFFF, #AE0CA7);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 h2{
     font-size: 70px;
@@ -42,25 +43,47 @@ header > nav.navbar ,a.navbar-brand{
     font-size: 22px; 
     font-weight: 600; 
 }
-/* section Apresentação */
-.h1-apresentacao{
-    padding:13rem 0rem 0rem 0rem;
+header>nav.navbar>div.container-fluid>div.collapse>ul.navbar-nav>li.nav-item>a.nav-link:hover{
+    border-bottom:4px solid #5DFFFF;
 }
-.h3-apresentacao{
-    margin-bottom: 2rem;
+
+
+/* section Apresentação */
+h2.h2-apresentacao{
+    color: white;
 }
 div.containerApresentacao{
     height: 45.8rem;
     padding: 180px;
 }
+div.img-icone{
+    width: 50px;
+    padding: 0%;
+}
+div.spans-apre{
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 700;
+    margin-top: 11rem;
+}
+.spanOla,.dev{
+    background: linear-gradient(45deg, #5DFFFF, #AE0CA7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+img:hover{
+    width:40px;
+}
+
+
+
 /* section sobre mim  */
 
 div.containerSobreMim{
-    padding:140px;
+    padding:180px;
 }
 h2.h2-sobreMim{
     margin-bottom: 3rem;
-
 }
 
 /* section Tecnologias */
@@ -72,10 +95,15 @@ h2.h2-tech{
 div.containerTech{
     height: 30rem;
 }
+.img:hover{
+    height: 140px;
+    border-top:4px solid #5DFFFF;
+}
+/* section projetos */
 
 
 /* responsividade */
-@media (max-width: 958px){
+/* @media (max-width: 958px){
     .h1-apresentacao{
         padding:8rem 0rem 0rem 0rem;
     }div.containerApresentacao{
@@ -175,4 +203,4 @@ div.containerTech{
 
 
 
-
+ */
