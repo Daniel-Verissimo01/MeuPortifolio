@@ -11,6 +11,7 @@ body{
     font-variant: normal; 
     font-weight: 400; 
     color: white;
+    background-color: black;
 }
 h1 {
    font-size: 87px; 
@@ -52,9 +53,12 @@ header>nav.navbar>div.container-fluid>div.collapse>ul.navbar-nav>li.nav-item>a.n
 h2.h2-apresentacao{
     color: white;
 }
+section{
+    background-color: black;
+}
 div.containerApresentacao{
     height: 45.8rem;
-    padding: 180px;
+
 }
 div.img-icone{
     width: 50px;
@@ -71,7 +75,7 @@ div.spans-apre{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-img:hover{
+.imagemREdesSociais:hover{
     width:40px;
 }
 
@@ -81,10 +85,34 @@ img:hover{
 
 div.containerSobreMim{
     padding:180px;
+    height: 45.8rem;
 }
 h2.h2-sobreMim{
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 5px;
 }
+.img-daniel{
+    border-radius: 10px;
+    
+}
+.h3-sobreMim1{
+    font-size:50px;
+   line-height: 50px;
+
+}
+.h3-sobreMim2{
+    background: linear-gradient(45deg, #5DFFFF, #AE0CA7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-size: 32px;
+   line-height: 32px;
+   font-weight: 700;
+
+}
+
+
+
+
 
 /* section Tecnologias */
 
@@ -93,7 +121,7 @@ h2.h2-tech{
     margin-top: 6rem;
 }
 div.containerTech{
-    height: 30rem;
+    height: 20rem;
 }
 .img:hover{
     height: 140px;
@@ -102,105 +130,3 @@ div.containerTech{
 /* section projetos */
 
 
-/* responsividade */
-/* @media (max-width: 958px){
-    .h1-apresentacao{
-        padding:8rem 0rem 0rem 0rem;
-    }div.containerApresentacao{
-        padding: 0px;
-    }
-
-    div.containerSobreMim{
-        padding:0px;
-    }
-    h2.h2-sobreMim{
-        margin-bottom: 3rem;
-    }
-    h1 {
-        font-size: 80px; 
-        font-weight: 700;
-        line-height: 80px;
-     }p{
-        font-size: 14px;
-     }
-}
-@media (max-width: 1171px){
-    div.containerApresentacao{
-        padding: 40px;
-    }
-    
-
-    div.containerSobreMim{
-        padding:40px;
-    }
-    h2.h2-sobreMim{
-        margin-bottom: 3rem;
-    }
-    .h1-apresentacao{
-        padding:12rem 0rem 0rem 0rem;
-    }
-    h2{
-       font-size: 60px;
-       line-height: 60px;
-    }
-    h3{
-        font-size: 50px;
-    }
-    h1 {
-        font-size: 80px; 
-        font-weight: 700;
-        line-height: 80px;
-        
-     }
-}
-@media (max-width: 670px){
-    .h1-apresentacao{
-        padding:6rem 0rem 0rem 0rem;
-    }div.containerApresentacao{
-        padding: 40px;
-        height: 45.8rem;
-        
-    }
-    h2.h2-sobreMim{
-        margin-top: 10rem;
-    }
-    
-
-    div.containerSobreMim{
-        padding:0px;
-    }
-    h2.h2-sobreMim{
-        margin-bottom: 3rem;
-    
-    }
-}
-@media (max-width: 500px){
-    h2.h2-sobreMim{
-        margin-top: 22rem;
-    }
-    h2{
-        font-size: 40px;
-        line-height: 40px;
-     }
-     h3{
-         font-size: 30px;
-     }
-     h1 {
-         font-size: 50px; 
-         font-weight: 700;
-         line-height: 50px;
-      }
-      p{
-        font-size: 12px;
-      }
-}    
-@media (max-width: 750px){
-
-} .h1-apresentacao{
-        padding:7rem 0rem 0rem 0rem;
-}
-
-
-
-
- */
